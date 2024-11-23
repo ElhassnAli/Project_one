@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: white;
+}
+
+.container {
+  background-color: rgb(72, 53, 241);
+  border-radius: 20px;
+
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.one {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(182, 163, 255);
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: rgb(69, 44, 223);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.circle:before {
+  content: "76";
+  position: absolute;
+  font-size: 60px;
+  top: 60px;
+  left: 60px;
+  translate: (-50%, -50%);
+  color: white;
+}
+
+.circle p {
+  font-size: 18px;
+  color: rgb(182, 163, 255);
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.two {
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 20px 10px;
+
+  color: rgb(182, 163, 255);
+}
+
+.body {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.sum {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.R,
+.V,
+.Vi,
+.M {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.R {
+  background-color: rgb(255, 246, 245);
+}
+
+.V {
+  background-color: rgb(255, 251, 242);
+}
+
+.Vi {
+  background-color: rgb(242, 251, 250);
+}
+
+.M {
+  background-color: rgb(243, 243, 253);
+}
+
+.I {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fa-bolt {
+  font-size: 18px;
+  color: rgb(236, 146, 146);
+  padding: 5px;
+}
+
+.fa-cloud {
+  font-size: 18px;
+  color: rgb(226, 191, 110);
+  padding: 5px;
+}
+
+.fa-comment {
+  font-size: 18px;
+  color: rgb(119, 206, 189);
+  padding: 5px;
+}
+
+.fa-eye {
+  font-size: 18px;
+  color: rgb(55, 63, 138);
+  padding: 5px;
+}
+
+.o,
+.O,
+.t,
+.T {
+  margin-left: 5px;
+}
+
+.o {
+  color: rgb(236, 146, 146);
+}
+
+.O {
+  color: rgb(226, 191, 110);
+}
+
+.t {
+  color: rgb(119, 206, 189);
+}
+
+.T {
+  color: rgb(55, 63, 138);
+}
+
+.C {
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  padding: 20px;
+  background-color: rgb(48, 59, 89);
+  list-style: none;
+  width: 350px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 400px) {
+  .container {
+    display: flex;
+    width: 600px;
+    margin: 50% auto;
+  }
+
+  .head {
+    width: 290px;
+  }
+
+  .body {
+    width: 310px;
+  }
+}
+
+button:active {
+  background-color: rgb(72, 53, 241);
+  cursor: pointer;
+}
