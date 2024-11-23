@@ -101,7 +101,7 @@ span {
 }
 
 .V {
-  background-color: rgb(243, 243, 253);
+  background-color: rgb(255, 251, 242);
 }
 
 .Vi {
@@ -109,7 +109,7 @@ span {
 }
 
 .M {
-  background-color: rgb(255, 251, 242);
+  background-color: rgb(243, 243, 253);
 }
 
 .I {
@@ -196,11 +196,11 @@ button {
   }
 
   .head {
-    width: 290px;
+    width: 300px;
   }
 
   .body {
-    width: 310px;
+    width: 300px;
   }
 }
 
