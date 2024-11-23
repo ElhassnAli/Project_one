@@ -133,13 +133,13 @@ span {
 
 .fa-comment {
   font-size: 18px;
-  color: rgb(119, 206, 189);
+  color:rgb(55, 63, 138);
   padding: 5px;
 }
 
 .fa-eye {
   font-size: 18px;
-  color: rgb(55, 63, 138);
+  color: rgb(119, 206, 189);
   padding: 5px;
 }
 
@@ -159,11 +159,11 @@ span {
 }
 
 .t {
-  color: rgb(119, 206, 189);
+  color:rgb(55, 63, 138);
 }
 
 .T {
-  color: rgb(55, 63, 138);
+  color: rgb(119, 206, 189);
 }
 
 .C {
